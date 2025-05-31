@@ -1,0 +1,152 @@
+/* Estilos da barra de acessibilidade */
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: none;
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color:#0277bd;
+    padding: 15px;
+    list-style: none;
+    border-radius: 10px; 
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 10;
+    width: 77px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+/* Imagem de fundo e sobreposição azul */
+.image-container {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.container {
+    width: 558px;
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.container2 {
+    width: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 100px;
+    margin: auto;
+}
+.container3 {
+    width: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 100px;
+    margin: auto;
+}
+.container4 {
+    width: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 100px;
+    margin: auto;
+}
+
+.Veja-mais-galerias {
+  width: 142px;
+  height: 20px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #331600;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+  padding: 20px 20px 5px 44px;
+  margin: 30px 222px 0 600px;
+  border-radius: 16px;
+  background-color: #ffd54f;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #01579b;
+    border-radius: 15px;
+}
+
+.image-menu{
+    position: absolute;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    width: 50px;
+    height: 50px;
+    right: 100;
+    flex-grow: 0;
+    margin: 0 30px;
+    padding: 13px 28px 13px 29px;
+    border-radius: 24px;
+    background-color: #eceff1
+}
