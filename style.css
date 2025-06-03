@@ -66,17 +66,36 @@
 }
 
 .container2 {
-    width: 10px;
-    height: 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     padding: 10px;
     border-radius: 15px;
-    max-width: 100px;
+    max-width: 100%;
     margin: auto;
+    position: relative;
 }
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px; /* Garante que os cards tenham tamanhos iguais */
+}
+
+.botao-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-basis: 100%; 
+}
+
 .container3 {
     width: 10px;
     height: 200px;
@@ -89,17 +108,47 @@
     max-width: 100px;
     margin: auto;
 }
-.container4 {
-    width: 10px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
+.galeria {
+    background-color: #01579b;
+    padding: 20px;
+    text-align: center;
     border-radius: 15px;
-    max-width: 100px;
-    margin: auto;
+}
+
+.foto {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.foto img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.data {
+    font-weight: bold;
+    color: #fff;
+}
+
+.descricao {
+    color: #fff;
+}
+
+.botao {
+    background-color: #ffb300;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 20px;
+    align-self: center; 
+}
+.galeria button {
+    display: block;
+    margin: 20px auto; 
 }
 
 .Veja-mais-galerias {
@@ -115,15 +164,6 @@
   letter-spacing: normal;
   text-align: left;
   color: #331600;
-}
-
-.btn {
-  width: 200px;
-  height: 30px;
-  padding: 20px 20px 5px 44px;
-  margin: 30px 222px 0 600px;
-  border-radius: 16px;
-  background-color: #ffd54f;
 }
 
 .overlay {
@@ -150,3 +190,46 @@
     border-radius: 24px;
     background-color: #eceff1
 }
+
+.eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.foto-container {
+    display: flex;
+    justify-content: center; /* Centraliza os eventos */
+    flex-wrap: nowrap; /* Impede que quebrem para a próxima linha */
+    gap: 20px; /* Espaço entre os eventos */
+    width: 100%;
+}
+
+.foto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px; /* Mantém um tamanho uniforme */
+    flex: 1; /* Faz com que os eventos tenham o mesmo tamanho e se ajustem ao espaço disponível */
+    min-width: 230px;
+}
+
+.foto2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+
