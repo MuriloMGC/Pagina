@@ -229,6 +229,122 @@
     border-radius: 8px;
 }
 
+.galeria-container {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos */
+    gap: 40px; /* Espaço entre as imagens */
+    width: 100%;
+}
+
+.galeria-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.galeria-item h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.botao {
+    background-color: #ffd54f;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.galeria-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Inter;
+    text-transform: uppercase; 
+    text-align: center;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #01579b; 
+    text-shadow: 3px 3px 10px;
+}
+
+.secao-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.imagem-fundo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 20%; /* Move a parte branca para cima */
+    right: 10%; /* Posiciona à direita */
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.overlay2 h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+}
+
+.overlay2 p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.botoes-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.botao {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.amarelo {
+    background-color: #ffb300;
+    color: #fff;
+}
+
+.azul {
+    background-color: #01579b;
+    color: #fff;
+}
+
 
 
 
