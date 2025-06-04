@@ -1,4 +1,3 @@
-/* Estilos da barra de acessibilidade */
 .top-nav ul {
     display: flex;
     justify-content: center;
@@ -41,7 +40,7 @@
     text-align: left;
 }
 
-/* Imagem de fundo e sobreposição azul */
+
 .image-container {
     position: relative;
     border-radius: 15px;
@@ -85,7 +84,7 @@
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-    width: 250px; /* Garante que os cards tenham tamanhos iguais */
+    width: 250px;
 }
 
 .botao-container {
@@ -204,9 +203,9 @@
 
 .foto-container {
     display: flex;
-    justify-content: center; /* Centraliza os eventos */
-    flex-wrap: nowrap; /* Impede que quebrem para a próxima linha */
-    gap: 20px; /* Espaço entre os eventos */
+    justify-content: center;
+    flex-wrap: nowrap; 
+    gap: 20px; 
     width: 100%;
 }
 
@@ -218,8 +217,8 @@
     background-color: #fff;
     padding: 15px;
     border-radius: 10px;
-    width: 250px; /* Mantém um tamanho uniforme */
-    flex: 1; /* Faz com que os eventos tenham o mesmo tamanho e se ajustem ao espaço disponível */
+    width: 250px; 
+    flex: 1; 
     min-width: 230px;
 }
 
@@ -231,8 +230,8 @@
 
 .galeria-container {
     display: flex;
-    justify-content: center; /* Centraliza os elementos */
-    gap: 40px; /* Espaço entre as imagens */
+    justify-content: center;
+    gap: 40px; 
     width: 100%;
 }
 
@@ -289,6 +288,7 @@
     position: relative;
     width: 100%;
     text-align: center;
+    margin-top: 60px;
 }
 
 .imagem-fundo {
@@ -299,32 +299,36 @@
 
 .overlay2 {
     position: absolute;
-    top: 20%; /* Move a parte branca para cima */
-    right: 10%; /* Posiciona à direita */
+    top: 0;
+    right: 10%;
     background-color: rgba(255, 255, 255, 0.95);
-    padding: 25px;
-    border-radius: 10px;
+    padding: 30px;
     width: 40%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    text-align: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px; 
 }
 
 .overlay2 h2 {
     font-size: 26px;
     font-weight: bold;
     color: #333;
+    margin-bottom: 10px;
 }
 
 .overlay2 p {
     font-size: 18px;
     color: #666;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .botoes-container {
     display: flex;
     gap: 15px;
-    margin-top: 15px;
+    justify-content: center;
 }
 
 .botao {
@@ -344,6 +348,147 @@
     background-color: #01579b;
     color: #fff;
 }
+
+.eventos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+    margin-bottom: 50px;
+}
+
+.evento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 260px;
+    text-align: center;
+}
+
+.evento h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #01579b;
+}
+
+.evento p {
+    font-size: 16px;
+    color: #555;
+}
+/**/
+
+.info-top-container {
+    background-color: #0277bd; 
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 50px;
+}
+
+.info-item {
+    color: #fff;
+    text-align: center;
+    width: 32%;
+}
+
+
+.info-sections {
+    background-color: #01579b; 
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.imprensa {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.contato {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.prefeitura {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.municipio {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.secretarias {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+
+.info-block h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; 
+    margin-bottom: 8px;
+}
+
+
+.info-block ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-block li {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.map-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 0 0 10px 10px; 
+    margin-top: -2px; 
+}
+
+.footer-container {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.footer-content span {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-content img {
+    height: 40px; 
+}
+
+
+
+
+
 
 
 
